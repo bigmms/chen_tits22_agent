@@ -8,11 +8,11 @@
 
 This repository provides the dataset and code for the following paper:
 
-**Paper**: Deep Trident Decomposition Network for Single License Plate Image Glare Removal 
+**Paper**: Automatic Itinerary Planning Using Triple-Agent Deep Reinforcement Learning
 
-**Authors**: Bo-Hao Chen, Shiting Ye, Jia-Li Yin, Hsiang-Yin Cheng, and Dewang Chen
+**Authors**: Bo-Hao Chen, Jin Han, Shengxin Chen, Jia-Li Yin, Zhaojiong Chen
 
-in [IEEE TITS](https://ieeexplore.ieee.org/document/9357944).
+in [IEEE TITS](https://ieeexplore.ieee.org/document/9766177).
 
 
 ## Abstract
