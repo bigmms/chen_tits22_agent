@@ -24,14 +24,15 @@ Automatic itinerary planning that provides an epic journey for each traveler is 
 * cuda 10.0
 * cudnn 7.3.1
 * Python 3.5
-* numpy 1.15.0
-* openCV 4.3.0.38
-* keras 2.3.1
-* tensorflow 1.14.0
-* scikit-image 0.14.2
-* pillow 6.2.1
-* sewar 0.4.3
-* segmentation-models 0.2.1
+* xlrd==1.2.0
+* geopy==1.20.0
+* pymoo==0.3.2
+* requests==2.22.0
+* tensorflow==1.14.0
+* matplotlib==3.1.1
+* numpy==1.16.1
+* autograd==1.3
+* scikit_learn==0.21.2
 
 ### Dataset
 The sun glare image dataset can be downloaded from [here](https://bigmms.github.io/chen_tits21_dataset/).
