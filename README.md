@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Tensorflow-1.14.0-yellow)
 ![](https://img.shields.io/badge/Cuda-10.0-blue)
 
-![](save_graph/main_network.png)
+![](figs/main_network.png)
 
 
 This repository provides the dataset and code for the following paper:
@@ -54,8 +54,8 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 ```
 
 ## Results
-![](save_graph/LA.png)
-![](save_graph/London.png)
+![](figs/LA.png)
+![](figs/London.png)
 
 The images were the recovered results using the methods of (a) MOPSO method, (b) MOEA/D method, (c) NSGA-II method, (d) our previous method and (e) our proposed method.   
 Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
