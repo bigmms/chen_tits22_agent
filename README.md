@@ -55,7 +55,8 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 ```
 
 ## Results
-![](img/result.png)
+![](save_graph/LA.png)
+![](save_graph/London.png)
 
 The images were the recovered results using the methods of (a) Engin et al., (b) Li et al., (c) Qian et al., (d) Yang et al., (e) Wei et al., and (f) Zhang et al. as well as (g) our previous method and (h) the method proposed in this study. Please refer to our [paper](https://ieeexplore.ieee.org/document/9357944) for more information.
 
