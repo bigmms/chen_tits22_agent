@@ -38,7 +38,6 @@ Automatic itinerary planning that provides an epic journey for each traveler is 
 The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g)(extraction code:vf22).
 
 ### It was tested and runs under the following OSs:
-* Windows 10
 * Ubuntu 16.04
 
 Might work under others, but didn't get to test any other OSs just yet.
@@ -58,8 +57,7 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 ![](save_graph/LA.png)
 ![](save_graph/London.png)
 
-The images were the recovered results using the methods of (b) MOPSO method, (c) MOEA/D method, (d) NSGA-II method, (e) our previous method, and (f) our
-proposed method. (a) is traveler’s preferences. Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
+The images were the recovered results using the methods of (a) MOPSO method, (b) MOEA/D method, (c) NSGA-II method, (d) our previous method and (e) our proposed method. Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
 
 ## License + Attribution
 If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
