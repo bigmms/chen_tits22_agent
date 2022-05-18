@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Tensorflow-1.14.0-yellow)
 ![](https://img.shields.io/badge/Cuda-10.0-blue)
 
-![](img/main_network_new.png)
+![](save_graph/main_network.png)
 
 
 This repository provides the dataset and code for the following paper:
