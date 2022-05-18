@@ -62,7 +62,7 @@ The images were the recovered results using the methods of (b) MOPSO method, (c)
 proposed method. (a) is traveler’s preferences. Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
 
 ## License + Attribution
-If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9357944):
+If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
 ```
 @ARTICLE{ChenTITS2021,
   author={B. -H. {Chen} and J. {Han} and J. -L. {Yin} and Z. -J. {Chen}},
