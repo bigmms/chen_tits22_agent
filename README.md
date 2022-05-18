@@ -65,12 +65,12 @@ proposed method. (a) is traveler’s preferences. Please refer to our [paper](ht
 If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9357944):
 ```
 @ARTICLE{ChenTITS2021,
-  author={B. -H. {Chen} and S. {Ye} and J. -L. {Yin} and H. -Y. {Cheng} and D. {Chen}},
+  author={B. -H. {Chen} and J. {Han} and J. -L. {Yin} and Z. -J. {Chen}},
   journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={Deep Trident Decomposition Network for Single License Plate Image Glare Removal}, 
-  year={2021},
+  title={Automatic Itinerary Planning Using Triple-Agent Deep Reinforcement Learning}, 
+  year={2022},
   volume={},
   number={},
   pages={1-12},
-  doi={10.1109/TITS.2021.3058530}}
+  doi={10.1109/TITS.2022.3169002}}
 ```
