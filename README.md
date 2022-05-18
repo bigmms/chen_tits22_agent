@@ -64,7 +64,7 @@ proposed method. (a) is traveler’s preferences. Please refer to our [paper](ht
 ## License + Attribution
 If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
 ```
-@ARTICLE{ChenTITS2021,
+@ARTICLE{ChenTITS2022,
   author={B. -H. {Chen} and J. {Han} and J. -L. {Yin} and Z. -J. {Chen}},
   journal={IEEE Transactions on Intelligent Transportation Systems}, 
   title={Automatic Itinerary Planning Using Triple-Agent Deep Reinforcement Learning}, 
