@@ -58,14 +58,14 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 
 Geometric results of single-day itinerary planning in Los Angeles solved by using each compared method. (a) MOPSO method; (b) MOEA/D method;
 (c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for u^D^ = 1, u^B^ = 2,
-u^T^ = {Museum, Library}, u^SV^ = {Montebello}, and u^EV = {Burbank}.
+u^T^ = {Museum, Library}, u^SV^ = {Montebello}, and u^EV^ = {Burbank}.
 
 ![](figs/London.png)
 
 Geometric results of single-day itinerary planning in London solved by using each compared method. (a) MOPSO method; (b) MOEA/D method;
 (c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for uD = 1, uB = 2,
 uT = {Tourist Attractions}, uSV = {Brentford}, and uE V = {Canary Wharf}.
-Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
+Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information. 1^2^
 
 ## License + Attribution
 If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
