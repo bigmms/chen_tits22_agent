@@ -47,19 +47,12 @@ Might work under others, but didn't get to test any other OSs just yet.
 ### Usage
 * Training
 ```bash
-$ python train.py --train_path=/your/trainset/path --vaild_path=/your/valset/path --save_model_dir=/save/model/path --load_pretrain=/pretrain/generator/model/path
+$ python train.py --place=your_dataset_type
 ```
 * Testing
 ```bash
-$ python test.py --test_path=/your/testset/path --load_pretrain=/pretrain/generator/model/path
+$ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates --endloc=terminal_point_coordinates --tottime=total_number_of_locations_traveled --Budgetlevel=your_budget_level --mytype=preferred_location_type
 ```
-
-### Demo
-To test this code
-```bash
-$ python test.py --test_path=./dataset/test/synthesized_glare_images --load_pretrain=./save_weight/model.h5
-```
-The test results will be saved in: `./test_result/`
 
 ## Results
 ![](img/result.png)
