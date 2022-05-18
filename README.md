@@ -35,7 +35,7 @@ Automatic itinerary planning that provides an epic journey for each traveler is 
 * scikit_learn==0.21.2
 
 ### Dataset
-The train image dataset can be downloaded from [here]([https://bigmms.github.io/chen_tits21_dataset/](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g)(extraction code:vf22).
+The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g)(extraction code:vf22).
 
 ### It was tested and runs under the following OSs:
 * Windows 10
