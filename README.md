@@ -57,7 +57,8 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 ![](save_graph/LA.png)
 ![](save_graph/London.png)
 
-The images were the recovered results using the methods of (a) MOPSO method, (b) MOEA/D method, (c) NSGA-II method, (d) our previous method and (e) our proposed method. Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
+The images were the recovered results using the methods of (a) MOPSO method, (b) MOEA/D method, (c) NSGA-II method, (d) our previous method and (e) our proposed method.   
+Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
 
 ## License + Attribution
 If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
