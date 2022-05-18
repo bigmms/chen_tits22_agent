@@ -58,10 +58,11 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 ![](save_graph/LA.png)
 ![](save_graph/London.png)
 
-The images were the recovered results using the methods of (a) Engin et al., (b) Li et al., (c) Qian et al., (d) Yang et al., (e) Wei et al., and (f) Zhang et al. as well as (g) our previous method and (h) the method proposed in this study. Please refer to our [paper](https://ieeexplore.ieee.org/document/9357944) for more information.
+The images were the recovered results using the methods of (b) MOPSO method, (c) MOEA/D method, (d) NSGA-II method, (e) our previous method, and (f) our
+proposed method. (a) is traveler’s preferences. Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
 
 ## License + Attribution
-This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9357944):
+If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9357944):
 ```
 @ARTICLE{ChenTITS2021,
   author={B. -H. {Chen} and S. {Ye} and J. -L. {Yin} and H. -Y. {Cheng} and D. {Chen}},
