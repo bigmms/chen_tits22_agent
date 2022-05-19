@@ -16,7 +16,7 @@ in [IEEE TITS](https://ieeexplore.ieee.org/document/9766177).
 
 
 ## Abstract
-Automatic itinerary planning that provides an epic journey for each traveler is a fundamental yet inefficient task. Most existing planning methods apply heuristic guidelines for certain objective, and thereby favor popular preferred point of interests (POIs) with high probability, which ignore the intrinsic correlation between the POIs exploration, traveler’s preferences, and distinctive attractions. To tackle the itinerary planning problem, this paper explores the connections of these three objectives in probabilistic manner based on a Bayesian model and proposes a triple-agent deep reinforcement learning approach, which generates 4-way direction, 4-way distance, and 3-way selection strategy for iteratively determining next POI to visit in the itinerary. Experiments on five real-world cities demonstrate that our triple-agent deep reinforcement learning approach can provide better planning results in comparison with state-of-the-art multiobjective optimization methods.
+Automatic itinerary planning that provides an epic journey for each traveler is a fundamental yet inefficient task. Most existing planning methods apply heuristic guidelines for certain objective, and thereby favor popular preferred point of interests (POIs) with high probability, which ignore the intrinsic correlation between the POIs exploration, traveler's preferences, and distinctive attractions. To tackle the itinerary planning problem, this paper explores the connections of these three objectives in probabilistic manner based on a Bayesian model and proposes a triple-agent deep reinforcement learning approach, which generates 4-way direction, 4-way distance, and 3-way selection strategy for iteratively determining next POI to visit in the itinerary. Experiments on five real-world cities demonstrate that our triple-agent deep reinforcement learning approach can provide better planning results in comparison with state-of-the-art multiobjective optimization methods.
 
 ## Requirements
 
@@ -35,11 +35,10 @@ Automatic itinerary planning that provides an epic journey for each traveler is 
 * scikit_learn==0.21.2
 
 ### Dataset
-The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g) (extraction code: vf22).
+The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g)(extraction code:vf22).
 
 ### It was tested and runs under the following OSs:
 * Ubuntu 16.04
-* Windows 10
 
 Might work under others, but didn't get to test any other OSs just yet.
 
@@ -57,18 +56,17 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 ## Results
 ![](figs/LA.png)
 
-Geometric results of single-day itinerary planning in Los Angeles solved by using each compared method. (a) MOPSO method; (b) MOEA/D method;
-(c) NSGA-II method; (d) our previous method; and (e) our proposed method.
+Geometric results of single-day itinerary planning in Los Angeles solved by using each compared method. (a) MOPSO method; (b) MOEA/D method; (c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for u<sup>D</sup> = 1, u<sup>B</sup> = 2,
+u<sup>T</sup> = {Museum, Library}, u<sup>SV</sup> = {Montebello}, and u<sup>EV</sup> = {Burbank}.
 
 ![](figs/London.png)
 
-Geometric results of single-day itinerary planning in London solved by using each compared method. (a) MOPSO method; (b) MOEA/D method;
-(c) NSGA-II method; (d) our previous method; and (e) our proposed method. 
-
-Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
+Geometric results of single-day itinerary planning in London solved by using each compared method. (a) MOPSO method; (b) MOEA/D method; (c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for u<sup>D</sup> = 1, u<sup>B</sup> = 2,
+u<sup>T</sup> = {Tourist Attractions}, u<sup>SV</sup> = {Brentford}, and u<sup>EV</sup> = {Canary Wharf}.
+Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information. 
 
 ## License + Attribution
-This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
+If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
 ```
 @ARTICLE{ChenTITS2022,
   author={B. -H. {Chen} and J. {Han} and J. -L. {Yin} and Z. -J. {Chen}},
@@ -80,3 +78,4 @@ This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licens
   pages={1-12},
   doi={10.1109/TITS.2022.3169002}}
 ```
+
