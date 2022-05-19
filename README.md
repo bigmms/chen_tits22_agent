@@ -62,7 +62,7 @@ u<sup>T</sup> = {Museum, Library}, u<sup>SV</sup> = {Montebello}, and u<sup>EV</
 ![](figs/London.png)
 
 Geometric results of single-day itinerary planning in London solved by using each compared method. (a) MOPSO method; (b) MOEA/D method; (c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for u<sup>D</sup> = 1, u<sup>B</sup> = 2,
-u<sup>T</sup> = {Tourist Attractions}, u<sup>SV</sup> = {Brentford}, and u<sup>EV</sup> = {Canary Wharf}.
+u<sup>T</sup> = {Tourist Attractions}, u<sup>SV</sup> = {Brentford}, and u<sup>EV</sup> = {Canary Wharf}.  
 Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information. 
 
 ## License + Attribution
