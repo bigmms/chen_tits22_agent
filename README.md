@@ -68,7 +68,7 @@ Geometric results of single-day itinerary planning in London solved by using eac
 Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
 
 ## License + Attribution
-If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
+This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
 ```
 @ARTICLE{ChenTITS2022,
   author={B. -H. {Chen} and J. {Han} and J. -L. {Yin} and Z. -J. {Chen}},
