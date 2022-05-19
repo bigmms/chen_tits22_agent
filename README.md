@@ -35,10 +35,11 @@ Automatic itinerary planning that provides an epic journey for each traveler is 
 * scikit_learn==0.21.2
 
 ### Dataset
-The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g)(extraction code:vf22).
+The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g) (extraction code: vf22).
 
 ### It was tested and runs under the following OSs:
 * Ubuntu 16.04
+* Windows 10
 
 Might work under others, but didn't get to test any other OSs just yet.
 
@@ -63,10 +64,11 @@ u<sup>T</sup> = {Museum, Library}, u<sup>SV</sup> = {Montebello}, and u<sup>EV</
 
 Geometric results of single-day itinerary planning in London solved by using each compared method. (a) MOPSO method; (b) MOEA/D method; (c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for u<sup>D</sup> = 1, u<sup>B</sup> = 2,
 u<sup>T</sup> = {Tourist Attractions}, u<sup>SV</sup> = {Brentford}, and u<sup>EV</sup> = {Canary Wharf}.  
+
 Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information. 
 
 ## License + Attribution
-If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
+This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
 ```
 @ARTICLE{ChenTITS2022,
   author={B. -H. {Chen} and J. {Han} and J. -L. {Yin} and Z. -J. {Chen}},
