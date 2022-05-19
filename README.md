@@ -16,7 +16,7 @@ in [IEEE TITS](https://ieeexplore.ieee.org/document/9766177).
 
 
 ## Abstract
-Automatic itinerary planning that provides an epic journey for each traveler is a fundamental yet inefficient task. Most existing planning methods apply heuristic guidelines for certain objective, and thereby favor popular preferred point of interests (POIs) with high probability, which ignore the intrinsic correlation between the POIs exploration, traveler's preferences, and distinctive attractions. To tackle the itinerary planning problem, this paper explores the connections of these three objectives in probabilistic manner based on a Bayesian model and proposes a triple-agent deep reinforcement learning approach, which generates 4-way direction, 4-way distance, and 3-way selection strategy for iteratively determining next POI to visit in the itinerary. Experiments on five real-world cities demonstrate that our triple-agent deep reinforcement learning approach can provide better planning results in comparison with state-of-the-art multiobjective optimization methods.
+Automatic itinerary planning that provides an epic journey for each traveler is a fundamental yet inefficient task. Most existing planning methods apply heuristic guidelines for certain objective, and thereby favor popular preferred point of interests (POIs) with high probability, which ignore the intrinsic correlation between the POIs exploration, traveler’s preferences, and distinctive attractions. To tackle the itinerary planning problem, this paper explores the connections of these three objectives in probabilistic manner based on a Bayesian model and proposes a triple-agent deep reinforcement learning approach, which generates 4-way direction, 4-way distance, and 3-way selection strategy for iteratively determining next POI to visit in the itinerary. Experiments on five real-world cities demonstrate that our triple-agent deep reinforcement learning approach can provide better planning results in comparison with state-of-the-art multiobjective optimization methods.
 
 ## Requirements
 
@@ -35,10 +35,11 @@ Automatic itinerary planning that provides an epic journey for each traveler is 
 * scikit_learn==0.21.2
 
 ### Dataset
-The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g)(extraction code:vf22).
+The train image dataset can be downloaded from [here](https://pan.baidu.com/s/1pWibbJ9f5XpSFhwPR66A3g) (extraction code: vf22).
 
 ### It was tested and runs under the following OSs:
 * Ubuntu 16.04
+* Windows 10
 
 Might work under others, but didn't get to test any other OSs just yet.
 
@@ -57,15 +58,14 @@ $ python test.py --place=your_dataset_type --iniloc=starting_point_coordinates -
 ![](figs/LA.png)
 
 Geometric results of single-day itinerary planning in Los Angeles solved by using each compared method. (a) MOPSO method; (b) MOEA/D method;
-(c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for u^D^ = 1, u^B^ = 2,
-u^T^ = {Museum, Library}, u^SV^ = {Montebello}, and u^EV = {Burbank}.
+(c) NSGA-II method; (d) our previous method; and (e) our proposed method.
 
 ![](figs/London.png)
 
 Geometric results of single-day itinerary planning in London solved by using each compared method. (a) MOPSO method; (b) MOEA/D method;
-(c) NSGA-II method; (d) our previous method; and (e) our proposed method. The planning is recommended using the preference setting for uD = 1, uB = 2,
-uT = {Tourist Attractions}, uSV = {Brentford}, and uE V = {Canary Wharf}.
-Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information. 1^2
+(c) NSGA-II method; (d) our previous method; and (e) our proposed method. 
+
+Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for more information.
 
 ## License + Attribution
 If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
