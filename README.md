@@ -70,14 +70,14 @@ Please refer to our [paper](https://ieeexplore.ieee.org/document/9766177) for mo
 ## License + Attribution
 This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9766177):
 ```
-@ARTICLE{ChenTITS2022,
-  author={B. -H. {Chen} and J. {Han} and J. -L. {Yin} and Z. -J. {Chen}},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={Automatic Itinerary Planning Using Triple-Agent Deep Reinforcement Learning}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={1-12},
+@ARTICLE{ChenTITS2022_TripleAgent,
+  author={Chen, Bo-Hao and Han, Jin and Chen, Shengxin and Yin, Jia-Li and Chen, Zhaojiong},  
+  journal={IEEE Transactions on Intelligent Transportation Systems},   
+  title={Automatic Itinerary Planning Using Triple-Agent Deep Reinforcement Learning},   
+  year={2022},  
+  volume={23},  
+  number={10},  
+  pages={18864-18875},  
   doi={10.1109/TITS.2022.3169002}}
 ```
 
